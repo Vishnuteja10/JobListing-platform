@@ -1,0 +1,95 @@
+
+
+
+/* Search Jobs */
+
+.searchContainer{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    height: 22vh;
+    box-shadow:  0 4px 5px 0 rgb(245, 145, 145), 0 6px 5px 0 rgb(245, 155, 155);
+}
+
+.search{
+    margin-left: 5vw;
+    margin-top: 2vh;
+    font-size: 18px;
+    width: 65vw;
+    height: 5vh;
+    border-radius: 5px;
+    outline: none;
+    border:1px solid gainsboro;
+}
+
+
+.filterContainer{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-right: 10vw;
+    margin-top: 2vh;
+    
+}
+
+.skillsContainer{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+}
+
+.skill{
+    width: auto;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.skillName{
+    width: auto;
+    display: inline-block;
+    padding: 3px;
+    background-color: #FFEEEE;
+    height: 3vh;
+}
+
+.remove{
+    height: 3vh;
+    display: inline-block;
+    padding: 3px;
+    padding-left: 8px;
+    font-size: 16px;
+    width: 1.5vw;
+    background-color: #ED5353;
+    color: white;
+    cursor: pointer;
+}
+
+.clear{
+    color: #ED5353;
+    cursor: pointer;
+}
+
+.jobItems{
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.addJob button{
+    background-color: #ED5353;
+    color: #ffffff;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+select{
+    border: 1px solid gainsboro;
+    outline: none;
+}
+.filterContainer option{
+    font-size: 18px;
+}

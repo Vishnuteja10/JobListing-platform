@@ -1,0 +1,92 @@
+
+.outerContainer{
+    display: flex;
+}
+
+.jobDetailsContainer{
+    width: 60vw;
+   
+}
+
+.jobDetails{
+    margin: 30px;
+}
+
+.jobDetails h3{
+    font-size: 30px;
+}
+
+.image{
+    width: 40vw;
+    height: 100vh;
+    background-image: url('../../Assets/bg.png');
+    object-fit: cover;
+}
+
+.image h3{
+    color: white;
+    font-size: 30px;
+    margin-left: 5vw;
+    margin-top: 3vh;
+}
+
+.fieldContainer{
+    display: flex;
+    margin-top: 1vh;
+}
+
+.label{
+    font-size: 20px;
+    width: 12vw;
+    /* border: 2px solid green; */
+}
+.input{
+    margin-left: 3vw;
+    width: 35vw;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+    height: 4vh;
+}
+
+select{
+    width: 6vw;
+    height: 4vh;
+    margin-left: 3vw;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+option{
+    font-size: 15px;
+}
+
+textarea{
+    margin-left: 3vw;
+    width: 35vw;
+    font-size: 20px;
+    height: 12vh;
+}
+
+.buttons{
+    display: flex;   
+    margin-left: 38vw;
+}
+
+.buttons button{
+    cursor: pointer;
+    height: 4vh;
+    outline: none;
+    border-radius: 5px;
+}
+
+.cancel{
+    color: gray;
+}
+
+.addJob{
+    margin-left: 1vw;
+    background-color:rgb(235, 69, 69);
+    color: white;
+}

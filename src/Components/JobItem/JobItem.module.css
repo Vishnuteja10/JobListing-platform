@@ -1,0 +1,99 @@
+
+.jobItem{
+    margin-top: 3vh;
+    width: 80vw;
+    height: 15vh;
+   box-shadow:  0 4px 5px 0 rgb(245, 145, 145), 0 6px 5px 0 rgb(245, 155, 155);
+}
+
+.container{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobDetailsContainer{
+    display: flex;
+    /* border: 2px solid blue; */
+}
+
+.logo img{
+    width: 4vw;
+    height: 5vh;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.jobRole{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.jobRoleDetails{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 1vh;
+}
+
+.companySize{
+  color: gray;
+}
+
+.salaryRange{
+    margin-left: 2vw;
+    color: gray;
+}
+
+.jobLocation{
+    margin-left: 2vw;
+    color: gray;
+}
+
+.jobTypeContainer{
+    margin-top: 1vh;
+}
+
+.inOffice{
+    margin-left: 20px;
+    color: rgb(235, 69, 69);
+}
+
+.jobType{
+    margin-left: 10px;
+    color:rgb(235, 69, 69);
+}
+
+.skillsList{
+   display: flex;
+   flex-wrap: wrap;
+   /* border: 2px solid brown; */
+}
+
+.viewDetails{
+    margin-left: 180px;
+}
+
+.viewDetails button{
+    font-size: 18px;
+     cursor: pointer;
+}
+
+.skill{
+    margin: 3px;
+    padding: 4px;
+    margin-left: 5px;
+    font-weight: 500;
+    background-color:#FFEEEE ;
+    /* border: 2px solid green; */
+}
+
+.skills button{
+    width: 8vw;
+    height: 4vh;
+    color: white;
+    background-color:  rgb(235, 69, 69);
+    margin-top: 10px;
+    outline: none;
+    border: none;
+}

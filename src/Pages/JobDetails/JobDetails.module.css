@@ -1,0 +1,100 @@
+.main{
+    background-color: #FFEFEF;
+    height: 100vh;
+}
+
+.headerContainer{
+    position: relative;
+}
+
+.header{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    position: absolute;
+    top: 10vh;
+    width: 80vw;
+    height: 13vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow:  0 4px 5px 0 rgb(75, 73, 73);
+}
+
+.header span{
+    color: black;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.title{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+}
+
+/* Job Details container */
+
+.jobDetailsContainer{
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 15vh;
+    background-color: white;
+    box-shadow:  0 4px 5px 0 rgb(75, 73, 73);
+}
+
+.jobDetails{
+    margin: 40px;
+}
+
+.dateOfPublish{
+    color: gray;
+    padding-top: 5px;
+}
+
+.jobtitle h3{
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.jobHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.location{
+    margin-top: 5px;
+    color:rgb(235, 69, 69);
+}
+
+.stipendDetails{
+    display: flex;
+}
+
+.stipendDetails div{
+    color: gray;
+}
+
+.duration{
+    margin-left: 6vw;
+}
+
+.skills span{
+    margin-left: 25px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color:#FFEEEE; 
+}
+
+.Edit{
+    padding: 10px;
+    background-color: rgb(235, 69, 69);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.additionalInfo{
+    padding-bottom: 10px;
+}
